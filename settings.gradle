@@ -1,0 +1,2 @@
+include ':app', ':compoundbutton', ':ex6', ':ex_6', ':ex_7', ':ex_8', ':ex_9'
+rootProject.name='WidgetEx'

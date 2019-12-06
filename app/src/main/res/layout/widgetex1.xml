@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv1"
+        style="@style/myStyle"
+        android:text="대한민국"/>
+    <TextView
+        android:id="@+id/tv2"
+        style="@style/myStyle"
+        android:text="일본"/>
+    <TextView
+        android:id="@+id/tv3"
+        style="@style/myStyle"
+        android:text="중국"/>
+    <TextView
+        android:id="@+id/tv4"
+        style="@style/myStyle"
+        android:text="베트남"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나는 버튼"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="30dp"/>
+
+
+
+</LinearLayout>

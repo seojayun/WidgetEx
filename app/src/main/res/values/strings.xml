@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WidgetEx</string>
+    <string name="kor">오늘 무슨요일</string>
+    <string name="eng">monday</string>
+</resources>

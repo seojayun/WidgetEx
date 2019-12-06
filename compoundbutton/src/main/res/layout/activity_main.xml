@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="정규회원"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비회원"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--       사용법은 CheckBox,Switch,ToggleButton 랑 동일하다 모양만 틀리다-->
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성"/>
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여성"/>
+
+    </RadioGroup>
+<!--   라디오 버튼은 반드시 라디오 그룹을 먼저 생성하고 사용하며, 버튼 여러개중 한개를 골라 사용하는 것-->
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cat" />
+<!--    android:scaleType="fitXY"  내가 정해준 공간은 전부 다 차지함  센터는 비율로 맞춰서-->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat"/>
+<!--ImageButton   이미지를 버튼처럼 사용한다.-->
+
+
+</LinearLayout>
